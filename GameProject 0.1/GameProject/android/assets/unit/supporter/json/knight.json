@@ -1,0 +1,39 @@
+{
+	"hp" : "200",
+	"attack" : "30",
+	"speed" : "3",
+	"protect" : "0.5",
+	"nuckbackResist" : "0.0",
+	"spineAtlas" : "spine/spineboy/spineboy.atlas",
+	"spineSkeleton" : "spine/spineboy/spineboy.json",
+	"skills" : [
+	
+		{"animationState" : "jump",
+		"effect" : "", 
+		"magnification" : "0.1", 
+		"minimumRange" : "0", 
+		"maximumRange" : "300", 
+		"nuckback" : "30", 
+		"nuckbackSpeed" : "6", 
+		"buffType" : "0", 
+		"buffTime" : "0", 
+		"isBuff" : "0", 
+		"target" : "0",
+		"delay" : "1000",
+		"unlock" : "1" },
+		
+		{"animationState" : "shoot", 
+		"effect" : "frame", 
+		"magnification" : "0.1", 
+		"minimumRange" : "300",
+		"maximumRange" : "600",
+		"nuckback" : "100", 
+		"nuckbackSpeed" : "5", 
+		"buffType" : "1", 
+		"buffTime" : "100", 
+		"isBuff" : "2", 
+		"target" : "0",
+		"delay" : "2000", 
+		"unlock" : "0"}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"hp" : "60",
+	"attack" : "5",
+	"speed" : "2",
+	"protect" : "0.3",
+	"nuckbackResist" : "0.5",
+	"spineAtlas" : "spine/spineboy/spineboy.atlas",
+	"spineSkeleton" : "spine/spineboy/spineboy.json"
+}

@@ -1,0 +1,59 @@
+{
+	"count" : "10",
+	"background" : [
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"},
+			{"texture" : "mapTexture.png"}
+	],
+		
+	"wave" : [
+		{"waveIndex" : "1",
+		 "waveDistance" : "3000",
+		 "waveMonster" : [
+			{"monsterId" : "goblin", "yIndex" : "1"},
+			{"monsterId" : "goblin", "yIndex" : "2"},
+			{"monsterId" : "goblin", "yIndex" : "3"},
+		]},
+		
+		{"waveIndex" : "2",
+		 "waveDistance" : "4000",
+		 "waveMonster" : [
+			{"monsterId" : "goblin", "yIndex" : "1"},
+			{"monsterId" : "goblin", "yIndex" : "2"},
+			{"monsterId" : "goblin", "yIndex" : "4"},
+			{"monsterId" : "goblin", "yIndex" : "5"}
+		]},
+		
+		{"waveIndex" : "3",
+		 "waveDistance" : "5000",
+		 "waveMonster" : [
+			{"monsterId" : "goblin", "yIndex" : "1"},
+			{"monsterId" : "goblin", "yIndex" : "2"},
+			{"monsterId" : "goblin", "yIndex" : "3"},
+			{"monsterId" : "goblin", "yIndex" : "4"},
+			{"monsterId" : "goblin", "yIndex" : "5"}
+		]},
+		
+		{"waveIndex" : "4",
+		 "waveDistance" : "6000",
+		 "waveMonster" : [
+			{"monsterId" : "goblin", "yIndex" : "1"},
+			{"monsterId" : "goblin", "yIndex" : "2"},
+			{"monsterId" : "goblin", "yIndex" : "4"},
+			{"monsterId" : "goblin", "yIndex" : "5"}
+		]},
+		
+		{"waveIndex" : "5",
+		 "waveDistance" : "7000",
+		 "waveMonster" : [
+			{"monsterId" : "goblin", "yIndex" : "1"}
+		]}
+	]
+}
